@@ -1,1 +1,9 @@
-{}
+{
+  "baseUrl": null,
+  "totalSize": 4,
+  "records": {
+    "Account": null,
+    "Contact": null,
+    "Lead": null
+  }
+}
