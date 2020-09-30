@@ -12,16 +12,7 @@
         "Phone": "+353838878035",
         "Membership_Type__c": "FoodCloud Plus",
         "External_Id__c": "FC:0013O00000JuxfP",
-        "BillingAddress": {
-          "city": "Drumcondra",
-          "country": "Ireland",
-          "geocodeAccuracy": null,
-          "latitude": null,
-          "longitude": null,
-          "postalCode": "D09 T6P7",
-          "state": "Dublin",
-          "street": "Drumcondra Business Centre, 120 Drumcondra Rd Upper"
-        },
+        "BillingAddress": null,
         "Bonus_Donation_Type__c": "ScheduledBonusThenOpenBonus",
         "Accept_Chill__c": "yes",
         "Retail__c": true,
@@ -89,8 +80,23 @@
         "Name": "New Donor",
         "Phone": "+353838878035",
         "External_Id__c": "FC:0013O00000Iop2G",
-        "BillingAddress": null
-    },
+        "BillingAddress": {
+          "city": "Area",
+          "country": "Country",
+          "geocodeAccuracy": null,
+          "latitude": null,
+          "longitude": null,
+          "postalCode": "PC",
+          "state": "City",
+          "street": "Street"
+        },
+        "Retail__c": false,
+        "Hard_Allocation__c": false,
+        "FoodCloud_Plus__c": false,
+        "Choice__c": false,
+        "Id": "0013O00000Iop2GQAR"
+      }
+    ],
     "Contact": [
       {
         "attributes": {
