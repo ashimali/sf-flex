@@ -1,0 +1,185 @@
+// 20200930105729
+// https://raw.githubusercontent.com/ashimali/sf-flex/master/response.json
+
+{
+  "baseUrl": "https://foodclosb1--foodclosb1.lightning.force.com",
+  "totalSize": 4,
+  "records": {
+    "Account": [
+      {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v50.0/sobjects/Account/0013O00000JuxfPQAR"
+        },
+        "Name": "Enclude",
+        "Phone": "+353838878035",
+        "Membership_Type__c": "FoodCloud Plus",
+        "External_Id__c": "FC:0013O00000JuxfP",
+        "BillingAddress": {
+          "city": "Drumcondra",
+          "country": "Ireland",
+          "geocodeAccuracy": null,
+          "latitude": null,
+          "longitude": null,
+          "postalCode": "D09 T6P7",
+          "state": "Dublin",
+          "street": "Drumcondra Business Centre, 120 Drumcondra Rd Upper"
+        },
+        "Bonus_Donation_Type__c": "ScheduledBonusThenOpenBonus",
+        "Accept_Chill__c": "yes",
+        "Retail__c": true,
+        "Hard_Allocation__c": true,
+        "FoodCloud_Plus__c": true,
+        "Choice__c": true,
+        "Id": "0013O00000JuxfPQAR",
+        "Cases": {
+          "totalSize": 1,
+          "done": true,
+          "records": [
+            {
+              "attributes": {
+                "type": "Case",
+                "url": "/services/data/v50.0/sobjects/Case/5003O000004rIl7QAE"
+              },
+              "AccountId": "0013O00000JuxfPQAR",
+              "Id": "5003O000004rIl7QAE",
+              "CaseNumber": "00001063",
+              "ContactId": "0033O00000KKRXeQAP",
+              "ContactPhone": "+353838878035",
+              "Donor_Organisation__c": "0013O00000JQCr7QAH",
+              "Community_Organisation__c": "0013O00000JuxfPQAR",
+              "Contact": {
+                "attributes": {
+                  "type": "Contact",
+                  "url": "/services/data/v50.0/sobjects/Contact/0033O00000KKRXeQAP"
+                },
+                "Id": "0033O00000KKRXeQAP",
+                "Name": "Brandon DeMatteis"
+              },
+              "Account": {
+                "attributes": {
+                  "type": "Account",
+                  "url": "/services/data/v50.0/sobjects/Account/0013O00000JuxfPQAR"
+                },
+                "Id": "0013O00000JuxfPQAR",
+                "Name": "Enclude"
+              },
+              "Donor_Organisation__r": {
+                "attributes": {
+                  "type": "Account",
+                  "url": "/services/data/v50.0/sobjects/Account/0013O00000JQCr7QAH"
+                },
+                "Id": "0013O00000JQCr7QAH",
+                "Name": "Galway Hub"
+              },
+              "Community_Organisation__r": {
+                "attributes": {
+                  "type": "Account",
+                  "url": "/services/data/v50.0/sobjects/Account/0013O00000JuxfPQAR"
+                },
+                "Id": "0013O00000JuxfPQAR",
+                "Name": "Enclude"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "attributes": {
+          "type": "Account",
+          "url": "/services/data/v50.0/sobjects/Account/0013O00000Iop2GQAR"
+        },
+        "Name": "New Donor",
+        "Phone": "+353838878035",
+        "External_Id__c": "FC:0013O00000Iop2G",
+        "BillingAddress": null
+    ],
+    "Contact": [
+      {
+        "attributes": {
+          "type": "Contact",
+          "url": "/services/data/v50.0/sobjects/Contact/0033O00000KKRXeQAP"
+        },
+        "Name": "Brandon DeMatteis",
+        "Phone": "+353838878035",
+        "MobilePhone": "+353838878035",
+        "Email": "brandon.dematteis@enclude.ie",
+        "AccountId": "0013O00000JuxfPQAR",
+        "Primary_Affiliation_Role__c": "Consultant",
+        "Id": "0033O00000KKRXeQAP",
+        "Cases": {
+          "totalSize": 1,
+          "done": true,
+          "records": [
+            {
+              "attributes": {
+                "type": "Case",
+                "url": "/services/data/v50.0/sobjects/Case/5003O000004rIl7QAE"
+              },
+              "ContactId": "0033O00000KKRXeQAP",
+              "Id": "5003O000004rIl7QAE",
+              "CaseNumber": "00001063",
+              "ContactPhone": "+353838878035",
+              "AccountId": "0013O00000JuxfPQAR",
+              "Donor_Organisation__c": "0013O00000JQCr7QAH",
+              "Community_Organisation__c": "0013O00000JuxfPQAR",
+              "Contact": {
+                "attributes": {
+                  "type": "Contact",
+                  "url": "/services/data/v50.0/sobjects/Contact/0033O00000KKRXeQAP"
+                },
+                "Id": "0033O00000KKRXeQAP",
+                "Name": "Brandon DeMatteis"
+              },
+              "Account": {
+                "attributes": {
+                  "type": "Account",
+                  "url": "/services/data/v50.0/sobjects/Account/0013O00000JuxfPQAR"
+                },
+                "Id": "0013O00000JuxfPQAR",
+                "Name": "Enclude"
+              },
+              "Donor_Organisation__r": {
+                "attributes": {
+                  "type": "Account",
+                  "url": "/services/data/v50.0/sobjects/Account/0013O00000JQCr7QAH"
+                },
+                "Id": "0013O00000JQCr7QAH",
+                "Name": "Galway Hub"
+              },
+              "Community_Organisation__r": {
+                "attributes": {
+                  "type": "Account",
+                  "url": "/services/data/v50.0/sobjects/Account/0013O00000JuxfPQAR"
+                },
+                "Id": "0013O00000JuxfPQAR",
+                "Name": "Enclude"
+              }
+            }
+          ]
+        },
+        "Account": {
+          "attributes": {
+            "type": "Account",
+            "url": "/services/data/v50.0/sobjects/Account/0013O00000JuxfPQAR"
+          },
+          "Id": "0013O00000JuxfPQAR",
+          "Name": "Enclude"
+        }
+      }
+    ],
+    "Lead": [
+      {
+        "attributes": {
+          "type": "Lead",
+          "url": "/services/data/v50.0/sobjects/Lead/00Q3O0000026yx2UAA"
+        },
+        "Name": "Brandon DeMatteis",
+        "Phone": "838878035",
+        "MobilePhone": "838878035",
+        "Company": "Enclude",
+        "Id": "00Q3O0000026yx2UAA"
+      }
+    ]
+  }
+}
